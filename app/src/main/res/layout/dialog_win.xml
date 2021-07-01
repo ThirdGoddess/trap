@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/dialog_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="游戏胜利！"
+            android:textColor="#333333"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/consume"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="consume"
+            android:textColor="#333333"
+            android:textSize="22dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="22dp"
+            android:background="#DADADA" />
+
+
+        <TextView
+            android:id="@+id/again"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
+            android:text="再来一局"
+            android:textColor="#333333"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
